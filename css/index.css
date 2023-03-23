@@ -1,0 +1,433 @@
+*{box-sizing: border-box;}
+
+header{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    clear: both;
+    float: left;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+/* main header sections */
+.language{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.menu{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.logo{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+/* language section */
+.search{
+    height: 75px;
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.geo{
+    height: 75px;
+    width: 60%;
+    /* border: 1px solid black; */
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+.subscribe{
+    height: 75px;
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.geo li{
+    float: left;
+    display: inline;
+    margin-left: 13%;
+}
+.geo li a{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+.subscribe button{
+    float: left;
+    background-color: lightblue;
+    margin-left: 3%;
+}
+/* logo section */
+.date{
+    height: 150px;
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+.nyt{
+    height: 150px;
+    width: 60%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.weather{
+    height: 150px;
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.logo img{
+    height: 140px;
+    width: 100%;
+}
+.menu li a{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    float: left;
+    display: inline;
+    margin-left: 1.6%;
+    font-family: 'Roboto', sans-serif;
+}
+.weather img{
+    height: 100px;
+    width: 75%;
+    float: right;
+}
+/* main sections */
+.main{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.left{
+    height: 800px;
+    width: 70%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.right{
+    height: 800px;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+/* left section */
+.top{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.bottom{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.world{
+    height: 400px;
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.moscow{
+    height: 133.33px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.ukraine{
+    height: 133.33px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.war{
+    height: 133.33px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.donbas{
+    height: 400px;
+    width: 60%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.columnist{
+    height: 400px;
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.pc{
+    height: 400px;
+    width: 60%;
+    /* border: 1px solid black; */
+    float: left;
+}
+i{
+    font-size: 2rem;
+}
+/* right section */
+.edit{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.opinion{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.madrid{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.trend{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.resturant{
+    height: 250px;
+    width: 50%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.plant{
+    height: 250px;
+    width: 50%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.blow{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.paul{
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.blowtext h5{
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+.blowtext p{
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+.blowtext span{
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.blowtext a{
+    margin-bottom: 1%;
+}
+.paultext h5{
+    margin-bottom: 0%;
+}
+.paultext p{
+    margin-top: 3%;
+    margin-bottom: -4%;
+}
+.paultext span{
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.moscow h4{
+    margin-top: 1%;
+    margin-bottom: -3%;
+}
+.moscow p{
+    font-size: .9rem;
+    margin-bottom: 1%;
+}
+.moscow span{
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.ukraine h4{
+    margin-top: 1%;
+    margin-bottom: -3%;
+}
+.ukraine p{
+    font-size: .9rem;
+    margin-bottom: 1%;
+}
+.ukraine span{
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.war h5{
+    margin-top: 1%;
+    margin-bottom: -3%;
+    font-family: 'Roboto', sans-serif;
+}
+.war a{
+    font-size: .9rem;
+}
+.chatbox h4{
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+.chatbox p{
+    font-size: .9rem;
+    margin-bottom: 1%;
+}
+.chatbox span{
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.transcript h5{
+    margin-top: 13%;
+    margin-bottom: 0%;
+}
+.transcript span{
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.madrid h4{
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.madrid p{
+    font-size: .9rem;
+    margin-top: 0%;
+}
+.resturant h5{
+    margin-bottom: 2%;
+}
+.resturant span{
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem
+}
+.plant h5{
+    margin-bottom: 2%;
+}
+.plant span{
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem
+}
+/* images */
+.donbas img{
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 80%;
+}
+.pc img{
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 80%;
+}
+.madrid img{
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.resturant img{
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.plant img{
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.blow img{
+    height: 75px;
+    float: right;
+}
+.paul img{
+    height: 100%;
+    float: right;
+}
+/* media quieries */
+@media (max-width: 1570px){
+    .menu li{font-size: 80%;}
+}
+@media (max-width: 1480px){
+    .donbas img{
+        margin-left: 10%;
+        margin-top: 12%;
+        height: 60%;
+    }
+    .pc img{margin-left: 10%;
+        margin-top: 12%;
+        height: 60%;}
+    .left span{
+        display: none;
+    }
+    .right span{
+        display: none;
+    }
+}
+@media (max-width: 1280px){
+    .left p{
+        font-size: .8rem;
+    }
+    .left a{
+        font-size: .8rem;
+    }
+    header{height: 150px;}
+    .geo{display: none;}
+    .subscribe{display: none;}
+    .weather{display: none;}
+    .date{float: right;}
+    .language{
+        width: 20%;
+        height: 150px;}
+    .search{
+        width: 100%;
+        height: 150px;
+        text-align: center;}
+    i{margin-top: 24%;}
+    .logo{
+        width: 80%;
+        text-align: center;}
+    .logo img{
+        height: 123px;
+        width: 90%;
+    }
+    .nyt{width: 80%;}
+    .date{width: 20%;}
+    .menu{display: none;}
+    .resturant img{
+        margin-left: 8%;
+        height: 80px;}
+    .plant img{
+        margin-left: 8%;
+        height: 80px;}
+}
+@media (max-width: 990px){
+    .right{display: none;}
+    .left{width: 100%;}
+}
